@@ -1,0 +1,77 @@
+{
+  "chart_type": "scatter plot",
+  "title": "Strong Decline",
+  "x_axis": {
+    "label": "Dose (mg)",
+    "unit": "mg"
+  },
+  "y_axis": {
+    "label": "Response (%)",
+    "unit": "%"
+  },
+  "series": [
+    {
+      "name": "Observed",
+      "points": [
+        [
+          0.0,
+          61.0
+        ],
+        [
+          0.91,
+          59.7
+        ],
+        [
+          1.82,
+          55.5
+        ],
+        [
+          2.73,
+          47.9
+        ],
+        [
+          3.64,
+          51.8
+        ],
+        [
+          4.55,
+          47.7
+        ],
+        [
+          5.45,
+          42.0
+        ],
+        [
+          6.36,
+          42.6
+        ],
+        [
+          7.27,
+          39.2
+        ],
+        [
+          8.18,
+          36.4
+        ],
+        [
+          9.09,
+          32.8
+        ],
+        [
+          10.0,
+          31.6
+        ]
+      ]
+    }
+  ],
+  "p_value_text": "p < 0.001",
+  "model_estimated_slope": {
+    "Observed": -2.99
+  },
+  "confidence": "high",
+  "notes": "12 evenly spaced points along the x-axis from 0 to 10. Linear fit line goes from approximately (0, 60.7) to (10, 30.8).",
+  "_meta": {
+    "model": "gemini-4-carbon",
+    "seconds": 8.6
+  }
+}

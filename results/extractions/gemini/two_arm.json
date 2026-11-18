@@ -1,0 +1,91 @@
+{
+  "chart_type": "line chart",
+  "title": "Tumor Size Over Time",
+  "x_axis": {
+    "label": "Week",
+    "unit": "weeks"
+  },
+  "y_axis": {
+    "label": "Tumor size (mm)",
+    "unit": "mm"
+  },
+  "series": [
+    {
+      "name": "Treatment",
+      "points": [
+        [
+          0,
+          50.0
+        ],
+        [
+          2,
+          45.4
+        ],
+        [
+          4,
+          39.0
+        ],
+        [
+          6,
+          32.6
+        ],
+        [
+          8,
+          28.3
+        ],
+        [
+          10,
+          22.0
+        ],
+        [
+          12,
+          18.9
+        ]
+      ]
+    },
+    {
+      "name": "Placebo",
+      "points": [
+        [
+          0,
+          52.7
+        ],
+        [
+          2,
+          48.2
+        ],
+        [
+          4,
+          47.2
+        ],
+        [
+          6,
+          48.6
+        ],
+        [
+          8,
+          47.5
+        ],
+        [
+          10,
+          46.2
+        ],
+        [
+          12,
+          43.4
+        ]
+      ]
+    }
+  ],
+  "p_value_text": "p < 0.001 (difference in slopes)",
+  "model_estimated_slope": {
+    "Treatment": -2.69,
+    "Placebo": -0.56
+  },
+  "confidence": "high",
+  "notes": "Data points are clearly visible along vertical gridlines at even-numbered weeks; y-values are estimated via linear interpolation between 5 mm grid intervals.",
+  "_meta": {
+    "model": "gemini-4-carbon",
+    "seconds": 16.58
+  }
+}

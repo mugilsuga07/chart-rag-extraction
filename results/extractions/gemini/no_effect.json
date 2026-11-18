@@ -1,0 +1,77 @@
+{
+  "chart_type": "scatter plot",
+  "title": "No Effect",
+  "x_axis": {
+    "label": "Dose",
+    "unit": "mg"
+  },
+  "y_axis": {
+    "label": "Response",
+    "unit": "%"
+  },
+  "series": [
+    {
+      "name": "Observed",
+      "points": [
+        [
+          0.0,
+          41.2
+        ],
+        [
+          0.91,
+          37.1
+        ],
+        [
+          1.82,
+          38.1
+        ],
+        [
+          2.73,
+          26.2
+        ],
+        [
+          3.64,
+          51.8
+        ],
+        [
+          4.55,
+          48.2
+        ],
+        [
+          5.45,
+          39.7
+        ],
+        [
+          6.36,
+          46.6
+        ],
+        [
+          7.27,
+          43.8
+        ],
+        [
+          8.18,
+          39.1
+        ],
+        [
+          9.09,
+          48.6
+        ],
+        [
+          10.0,
+          41.2
+        ]
+      ]
+    }
+  ],
+  "p_value_text": "p = 0.305",
+  "model_estimated_slope": {
+    "Observed": 0.67
+  },
+  "confidence": "high",
+  "notes": "12 evenly spaced scatter points along the x-axis from 0 to 10 (increment ~0.91). Linear fit line starts around (0, 38.4) and ends around (10, 45.1).",
+  "_meta": {
+    "model": "gemini-4-carbon",
+    "seconds": 8.4
+  }
+}
